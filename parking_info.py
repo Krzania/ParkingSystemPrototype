@@ -2,7 +2,7 @@ from random import *
 from parking_spot import *
 
 #Total number of parking spots
-NUM_PARKING_SPOTS = 8
+NUM_PARKING_SPOTS = 60
 random = Random()
 
 class ParkingInfo:

@@ -13,8 +13,8 @@ if __name__ == "__main__":
     CameraSensor = CameraSensor()
     ParkingInfo = ParkingInfo()
 
-    for x in range(3):
-        arriving_car = CameraSensor.get_license_plate()
+    for x in range(60):
+        arriving_car = CameraSensor.input_license_plate()
         APIService.get_car_info(arriving_car)
         ParkingInfo.park_car(arriving_car)
 
