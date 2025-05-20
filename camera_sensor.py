@@ -8,4 +8,4 @@ class CameraSensor:
         return license_plate
 
     def get_next_license_plate(self):
-        return self.car_list.readline()
+        return (self.car_list.readline()).strip()
